@@ -55,6 +55,7 @@ void selectionSort(Lista* lista){
     for(i = lista->inicio; i != NULL; i = i->prox){
         min = i;
 
+        // encontra o menor elemento com comparação
         for(j = i->prox; j != NULL; j = j->prox){
             if(j->valor < min->valor){
                 min = j;
