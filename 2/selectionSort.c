@@ -35,7 +35,6 @@ void lista_pushInicio(Lista* lista, int num){
         lista->inicio = novo;
 
         lista->tam++;
-
     }
 }
 
