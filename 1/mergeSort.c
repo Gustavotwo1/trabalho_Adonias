@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Ana clara
 
 void merge(int v[], int inicio, int meio, int fim) {
     int aux[10];
@@ -57,20 +58,20 @@ int main() {
         scanf("%d", &v[i]);
     }
 
-    // Ordenação
+    // Ordenaï¿½ï¿½o
     mergeSort(v, 0, 9);
 
-    // Exibição do vetor ordenado
+    // Exibiï¿½ï¿½o do vetor ordenado
     printf("\nVetor ordenado:\n");
     for (i = 0; i < 10; i++) {
         printf("%d ", v[i]);
     }
 
-    // Menor e maior número
+    // Menor e maior nï¿½mero
     menor = v[0];
     maior = v[9];
 
-    // Contagem das ocorrências
+    // Contagem das ocorrï¿½ncias
     for (i = 0; i < 10; i++) {
         if (v[i] == menor) {
             contMenor++;

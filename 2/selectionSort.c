@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+//Gustavo Antonio
 
 typedef struct no{
 	int valor;
